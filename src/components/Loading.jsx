@@ -18,18 +18,11 @@ const Loading = () => {
         >
           <div className="flex items-center gap-4">
             <img 
-              src="/techmine_icon.jpg" 
-              className="w-12 h-12 object-cover rounded-xl" 
-              alt="TechMine Icon" 
+              src="/techmine_name_only.jpg" 
+              className="h-12 object-contain" 
+              alt="TechMine Logo" 
             />
-            <div className="flex flex-col justify-center text-left">
-              <span className="text-3xl font-black tracking-tight font-heading leading-none text-white">
-                TECH<span className="text-[#29aae1]">MINE</span>
-              </span>
-              <span className="text-[10px] font-bold tracking-widest leading-none mt-1 text-white/70">
-                DIGITAL GROWTH PARTNER
-              </span>
-            </div>
+
           </div>
         </motion.div>
         

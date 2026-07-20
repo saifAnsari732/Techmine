@@ -75,18 +75,11 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
         >
           <div className="flex items-center gap-3">
             <img 
-              src="/techmine_icon.jpg" 
-              className="w-10 h-10 sm:w-12 sm:h-12 object-cover rounded-xl" 
-              alt="TechMine Icon" 
+              src="/techmine_name_only.jpg" 
+              className="h-10 sm:h-12 object-contain" 
+              alt="TechMine Logo" 
             />
-            <div className="flex flex-col justify-center">
-              <span className={`text-xl sm:text-2xl font-black tracking-tight font-heading leading-none ${isDarkMode ? 'text-white' : 'text-[#0e4174]'}`}>
-                TECH<span className="text-[#29aae1]">MINE</span>
-              </span>
-              <span className={`text-[8px] sm:text-[10px] font-bold tracking-widest leading-none mt-1 ${isDarkMode ? 'text-white/70' : 'text-gray-500'}`}>
-                DIGITAL GROWTH PARTNER
-              </span>
-            </div>
+
           </div>
         </Link>
 
