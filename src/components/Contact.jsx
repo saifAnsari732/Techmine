@@ -19,8 +19,8 @@ const Contact = () => {
     const { name, email, service, message } = formData;
     
     // Construct WhatsApp message
-    const waNumber = "919511150925"; 
-    const text = `Hello Kisan Digital!%0A%0A*New Inquiry*%0A%0A*Name:* ${name}%0A*Email:* ${email}%0A*Service:* ${service}%0A*Message:* ${message}`;
+    const waNumber = "919905234866"; 
+    const text = `Hello TechMine!%0A%0A*New Inquiry*%0A%0A*Name:* ${name}%0A*Email:* ${email}%0A*Service:* ${service}%0A*Message:* ${message}`;
     
     window.open(`https://wa.me/${waNumber}?text=${text}`, '_blank');
   };
@@ -57,9 +57,9 @@ const Contact = () => {
 
             <div className="space-y-12">
               {[
-                { icon: <HiMail />, label: 'Email us', value: 'hello@kisandigital.com' },
-                { icon: <HiPhone />, label: 'Call us', value: '+91 95111 50925' },
-                { icon: <HiLocationMarker />, label: 'Our Office', value: 'Lucknow, Uttar Pradesh, India' },
+                { icon: <HiMail />, label: 'Email us', value: 'hello@techmine.com' },
+                { icon: <HiPhone />, label: 'Call us', value: '+91 99052 34866' },
+                { icon: <HiLocationMarker />, label: 'Our Office', value: 'Lucknow, Uttar Pradesh' },
               ].map((item, index) => (
                 <div key={index} className="flex gap-4 sm:gap-8 items-center group">
                   <div className="w-14 h-14 sm:w-16 sm:h-16 shrink-0 rounded-xl sm:rounded-[1.5rem] glass border border-[var(--border-color)] flex items-center justify-center text-2xl sm:text-3xl text-primary-light group-hover:bg-primary group-hover:text-white transition-all duration-500 shadow-xl">
@@ -132,8 +132,6 @@ const Contact = () => {
                     className="w-full bg-bg-color/50 border border-[var(--border-color)] rounded-2xl pl-14 pr-8 py-5 outline-none focus:border-primary-light/50 transition-all appearance-none font-medium shadow-[inset_0_2px_4px_rgba(0,0,0,0.05)] focus:bg-primary/5"
                   >
                     <option value="Website Development">Website Development</option>
-                    <option value="SEO Optimization">SEO Optimization</option>
-                    <option value="Ads Management">Ads Management</option>
                     <option value="Branding & Identity">Branding & Identity</option>
                   </select>
                   <div className="absolute right-8 top-1/2 -translate-y-1/2 pointer-events-none opacity-40 text-xs">

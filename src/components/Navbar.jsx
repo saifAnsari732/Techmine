@@ -57,7 +57,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
       <div className="w-full bg-gradient-to-r from-blue-500 to-blue-800 text-white text-[10px] sm:text-xs py-2 marquee-container border-b border-white/10">
         <div className="marquee-content font-bold tracking-[0.2em] uppercase">
           {[...Array(4)].flatMap((_, i) => 
-            ["Website Development", "App Development", "WordPress Development", "E-Commerce Website", "Product Listing", "Digital Marketing", "Social Media Ads", "SEO Optimization", "Graphic Design"].map((service, j) => (
+            ["Website Development", "App Development", "WordPress Development", "E-Commerce Website", "Product Listing", "Graphic Design"].map((service, j) => (
               <span key={`${i}-${j}`} className="mx-6 flex items-center gap-6 whitespace-nowrap">
                 {service}
                 <span className="w-1.5 h-1.5 rounded-full bg-white/50"></span>
@@ -73,21 +73,20 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           to="/"
           className="flex items-center gap-3 group cursor-pointer"
         >
-          <div className="flex items-center">
-            {!isDarkMode && (
-              <img 
-                src="/10.webp" 
-                className="w-[140px] sm:w-[160px] lg:w-[240px] h-auto object-contain" 
-                alt="Kisan Digital Logo" 
-              />
-            )}
-            {isDarkMode && (
-              <img 
-                src="/12.png" 
-                className="w-[140px] sm:w-[160px] lg:w-[240px] h-auto object-contain" 
-                alt="Kisan Digital Logo" 
-              />
-            )}
+          <div className="flex items-center gap-3">
+            <img 
+              src="/techmine_icon.jpg" 
+              className="w-10 h-10 sm:w-12 sm:h-12 object-cover rounded-xl" 
+              alt="TechMine Icon" 
+            />
+            <div className="flex flex-col justify-center">
+              <span className={`text-xl sm:text-2xl font-black tracking-tight font-heading leading-none ${isDarkMode ? 'text-white' : 'text-[#0e4174]'}`}>
+                TECH<span className="text-[#29aae1]">MINE</span>
+              </span>
+              <span className={`text-[8px] sm:text-[10px] font-bold tracking-widest leading-none mt-1 ${isDarkMode ? 'text-white/70' : 'text-gray-500'}`}>
+                DIGITAL GROWTH PARTNER
+              </span>
+            </div>
           </div>
         </Link>
 

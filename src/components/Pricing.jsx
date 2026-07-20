@@ -4,7 +4,7 @@ import { HiCheckCircle } from 'react-icons/hi';
 import { pricing } from '../data/content';
 import Button from './UI/Button';
 
-const categories = ['Web Packages', 'App Development', 'AI Automation', 'Integrations', 'Google Ads', 'Social Media', 'SEO', 'Google Listing'];
+const categories = ['Web Packages', 'App Development', 'AI Automation', 'Integrations'];
 
 const Pricing = () => {
   const [activeCategory, setActiveCategory] = useState('Web Packages');
@@ -12,8 +12,8 @@ const Pricing = () => {
   const filteredPricing = pricing.filter(plan => plan.category === activeCategory);
 
   const handlePricingAction = (plan) => {
-    const message = `Hi Kisan Digital, I'm interested in the ${plan.name} plan (${plan.price}) under ${plan.category}. Please provide more details.`;
-    const whatsappUrl = `https://wa.me/919511150925?text=${encodeURIComponent(message)}`;
+    const message = `Hi TechMine, I'm interested in the ${plan.name} plan (${plan.price}) under ${plan.category}. Please provide more details.`;
+    const whatsappUrl = `https://wa.me/919905234866?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 

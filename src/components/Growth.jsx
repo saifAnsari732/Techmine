@@ -17,17 +17,17 @@ const Growth = () => {
       tag: "Scale & Analytics",
       title: "Data-Driven Business Growth",
       description:
-        "At Kisan Digital, growth is more than just pageviews. We map out end-to-end customer journeys and deploy intelligent analytics to make every ad rupee count. Our visual boardrooms are where charts transform into scaling revenue.",
+        "At TechMine, growth is more than just pageviews. We map out end-to-end customer journeys and deploy intelligent analytics to make every interaction count. Our visual boardrooms are where charts transform into scaling revenue.",
       image: "/presentation.webp",
       icon: <HiTrendingUp className="text-emerald-400 text-3xl" />,
       features: [
         {
           label: "Precision Campaigns",
-          text: "Target local and global buyers with ads optimized for high intent.",
+          text: "Target local and global users with solutions optimized for high intent.",
         },
         {
           label: "ROI Focus",
-          text: "Reduce acquisition cost (CAC) while scaling your marketing budget.",
+          text: "Reduce operational cost while scaling your business.",
         },
         {
           label: "Visual Analytics",
@@ -100,7 +100,7 @@ const Growth = () => {
             viewport={{ once: true }}
             className="opacity-80 text-[var(--text-color)] text-base md:text-lg leading-relaxed max-w-2xl mx-auto"
           >
-            We merge high-performing digital marketing strategies with modern frontend technology to build products that scale your business.
+            We merge high-performing product strategies with modern frontend technology to build software that scales your business.
           </motion.p>
         </div>
 
@@ -120,7 +120,7 @@ const Growth = () => {
                   transition={{ type: "spring", stiffness: 380, damping: 30 }}
                 />
               )}
-              <HiChartBar className="text-base shrink-0" /> <span className="break-words">Marketing Growth</span>
+              <HiChartBar className="text-base shrink-0" /> <span className="break-words">Business Growth</span>
             </button>
             <button
               onClick={() => setActiveTab("tech")}

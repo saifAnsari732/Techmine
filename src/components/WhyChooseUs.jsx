@@ -12,7 +12,7 @@ const WhyChooseUs = () => {
               whileInView={{ opacity: 1 }}
               className="text-[10px] uppercase tracking-[0.5em] font-black opacity-40 mb-6 block"
             >
-              The Kisan Edge
+              The TechMine Edge
             </motion.span>
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
@@ -26,7 +26,7 @@ const WhyChooseUs = () => {
               whileInView={{ opacity: 1 }}
               className="text-white/60 mb-16 text-xl leading-relaxed max-w-xl"
             >
-              Our approach combines data-driven marketing with cutting-edge technology. 
+              Our approach combines data-driven insights with cutting-edge technology.
               We don't just deliver clicks; we deliver customers and ROI.
             </motion.p>
             

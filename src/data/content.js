@@ -24,48 +24,7 @@ export const services = [
     icon: "web",
     color: "#2B67C7", // Brand Light Blue
   },
-  {
-    title: "SEO Optimization",
-    description:
-      "Boost your search engine rankings and drive organic traffic to your business with our proven SEO strategies.",
-    icon: "seo",
-    color: "#2B67C7", // Brand Light Blue
-  },
-  {
-    title: "Google Ads",
-    description:
-      "Highly targeted PPC campaigns that maximize your ROI and put your brand in front of ready-to-buy customers.",
-    icon: "ads",
-    color: "#123FA8", // Brand Primary Blue
-  },
-  {
-    title: "Meta Ads",
-    description:
-      "Creative and data-driven advertising across Facebook and Instagram to scale your business growth.",
-    icon: "meta",
-    color: "#8B5CF6", // Violet
-  },
-  {
-    title: "Social Media Marketing",
-    description:
-      "Building and managing your brand presence across all social platforms to engage with your audience.",
-    icon: "social",
-    color: "#EC4899", // Pink
-  },
-  {
-    title: "Branding",
-    description:
-      "Crafting unique and memorable brand identities that resonate with your target market.",
-    icon: "branding",
-    color: "#EF4444", // Red
-  },
-  {
-    title: "Lead Generation",
-    description:
-      "Strategic funnel building and lead magnet creation to fill your pipeline with high-quality prospects.",
-    icon: "leads",
-    color: "#06B6D4", // Cyan
-  },
+
   {
     title: "Graphic Designing",
     description:
@@ -111,27 +70,7 @@ export const stats = [
 ];
 
 export const portfolio = [
-  {
-    id: "real-estate-leads",
-    title: "Real Estate Lead Generation",
-    category: "Performance Marketing",
-    image:
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop",
-    description:
-      "Generated high-quality property buyer leads for a local real estate company through Meta and Google Ads campaigns. Reduced lead cost by 42% while increasing monthly inquiries and site visits within just 90 days.",
-    link: "#",
-  },
 
-  {
-    id: "school-admission-campaign",
-    title: "School Admission Campaign",
-    category: "Social Media Marketing",
-    image:
-      "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=800&auto=format&fit=crop",
-    description:
-      "Created a full-funnel admission marketing strategy for a private school using Facebook, Instagram, and WhatsApp campaigns. Helped increase admission inquiries during the new session season with highly targeted local promotions.",
-    link: "#",
-  },
 
   {
     id: "tejomarg-website",
@@ -144,38 +83,7 @@ export const portfolio = [
     link: "#",
   },
 
-  {
-    id: "gym-client-growth",
-    title: "Gym Membership Growth Campaign",
-    category: "Meta Ads",
-    image:
-      "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800&auto=format&fit=crop",
-    description:
-      "Executed location-based Instagram and Facebook ad campaigns for a fitness center. Generated consistent membership inquiries using reels ads, transformation creatives, and limited-time offer funnels.",
-    link: "#",
-  },
 
-  {
-    id: "seo-services-ranking",
-    title: "SEO Ranking Improvement",
-    category: "SEO Optimization",
-    image:
-      "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?q=80&w=800&auto=format&fit=crop",
-    description:
-      "Improved search engine rankings for multiple local business keywords through technical SEO, content optimization, and backlink strategies. Increased organic website traffic and local visibility significantly.",
-    link: "#",
-  },
-
-  {
-    id: "ecommerce-growth",
-    title: "E-commerce Sales Scaling",
-    category: "E-commerce Marketing",
-    image:
-      "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=800&auto=format&fit=crop",
-    description:
-      "Built high-converting product campaigns for an online store using Meta Ads and retargeting funnels. Helped increase ROAS, recover abandoned carts, and boost repeat customer purchases.",
-    link: "#",
-  },
 ];
 export const process = [
   {
@@ -208,7 +116,7 @@ export const testimonials = [
   {
     name: "Rahul Sharma",
     role: "CEO, TechNext",
-    text: "Kisan Digital transformed our online presence. Our leads increased by 200% within the first three months!",
+    text: "TechMine transformed our online presence. Our web performance increased by 200% within the first three months!",
     image:
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
     stars: 5,
@@ -216,14 +124,14 @@ export const testimonials = [
   {
     name: "Priya Patel",
     role: "Founder, EcoBloom",
-    text: "The best investment we made for our brand. Their SEO strategies are truly world-class.",
+    text: "The best investment we made for our brand. Their technology strategies are truly world-class.",
     image:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
     stars: 5,
   },
   {
     name: "Vikram Singh",
-    role: "Marketing Head, GlobalLogix",
+    role: "IT Head, GlobalLogix",
     text: "Professional, creative, and results-driven. They actually care about our business growth.",
     image:
       "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200&auto=format&fit=crop",
@@ -232,7 +140,7 @@ export const testimonials = [
   {
     name: "Anjali Gupta",
     role: "Director, UrbanStyle",
-    text: "The ROI we achieved with their Meta ads campaign was beyond our expectations. Highly recommend!",
+    text: "The ROI we achieved with their custom app development was beyond our expectations. Highly recommend!",
     image:
       "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     stars: 5,
@@ -366,152 +274,7 @@ export const pricing = [
     isPopular: false,
   },
 
-  // Google Ads
-  {
-    category: "Google Ads",
-    name: "BASIC ADS",
-    price: "₹5,000",
-    description: "Starting with search ads.",
-    features: [
-      "Search Ads Setup",
-      "Keyword Research",
-      "Basic Ad Copy",
-      "Budget Management",
-      "Monthly Report",
-      "3 Ads Creatives",
-    ],
-    isPopular: false,
-  },
-  {
-    category: "Google Ads",
-    name: "PRO ADS",
-    price: "₹12,000",
-    description: "Full funnel ad strategy.",
-    features: [
-      "Search & Display Ads",
-      "Retargeting Setup",
-      "Landing Page Advice",
-      "Competitor Analysis",
-      "Conversion Tracking",
-      "Weekly Performance Review",
-      "5 Ads Creatives (Static + Video)",
-      "Keyword Research",
-      "SEO Friendly Ad Copy",
 
-
-    ],
-    isPopular: true,
-  },
-
-  // Social Media
-  {
-    category: "Social Media",
-    name: "BASIC SOCIAL",
-    price: "₹4999",
-    description: "Essential social presence.",
-    features: [
-      "2 Platforms Managed",
-      "8 Posts + 2 Video/Reels / Month",
-      "Basic Branding",
-      "Monthly Report",
-      "Ads Campaign (T&C Apply)",
-      "Competitor Analysis"
-    ],
-    isPopular: false,
-  },
-  {
-    category: "Social Media",
-    name: "ELITE SOCIAL",
-    price: "₹14,999",
-    description: "Dominant social strategy.",
-    features: [
-      "4 Platforms Managed",
-      "20 Posts + 5 Video/Reels / Month",
-      "Custom Reels / Videos",
-      "1 Influencer Collaboration",
-      "Community Management",
-      "Advanced Analytics",
-      "Ads Campaign (T&C Apply)",
-      "Competitor Analysis",
-      "Monthly Report",
-
-    ],
-    isPopular: true,
-  },
- {
-    category: "Social Media",
-    name: "ULTRA PREMIUM SOCIAL",
-    price: "₹24,999",
-    description: "Dominant social strategy.",
-    features: [
-      "5 Platforms Managed",
-      "30 Posts + 10 Video/Reels / Month",
-      "Custom Reels / Videos",
-      "2 Influencer Collaboration",
-      "Community Management",
-      "Advanced Analytics",
-      "Ads Campaign (T&C Apply)",
-      "Competitor Analysis",
-      "Monthly Report",
-      
-    ],
-    isPopular: true,
-  },
-
-  // SEO
-  {
-    category: "SEO",
-    name: "LOCAL SEO",
-    price: "₹6,000",
-    description: "Rank in your city.",
-    features: [
-      "Rank on Google Maps (Map Pack)",
-      "Google Business Profile Optimization",
-      "Local Keyword Research",
-      "On-Page SEO Optimization",
-      "Off-Page SEO Optimization",
-      "Review Generation & Management",
-      "Competitor Analysis",
-      "Monthly Ranking Report"
-    ],
-    isPopular: false,
-  },
-  {
-    category: "SEO",
-    name: "GLOBAL SEO",
-    price: "₹9999",
-    description: "Rank across the web.",
-    features: [
-     
-      "Content Optimization",
-      "Technical SEO Audit",
-      "Competitor Gap Analysis",
-      "Ranking Guarantee",
-      "Quarterly Strategy Call",
-      "On-Page SEO Optimization",
-      "Off-Page SEO Optimization",
-      "Ranking Analysis & Strategy",
-      "Content Optimization",
-      "Technical SEO Optimization",
-    ],
-    isPopular: true,
-  },
-
-  // Google Listing
-  {
-    category: "Google Listing",
-    name: "GMB SETUP",
-    price: "₹2,000",
-    description: "Get verified on maps.",
-    features: [
-      "Profile Creation",
-      "Address Verification",
-      "Photo Optimization",
-      "Hours & Info Setup",
-      "Basic Post Creation",
-    ],
-    isPopular: false,
-  },
 
   // App Development
   {
@@ -635,7 +398,7 @@ export const faqs = [
   {
     question: "How long does it take to see results?",
     answer:
-      "While some services like Ads can show immediate traffic, SEO typically takes 3-6 months for significant ranking improvements. We provide monthly progress reports to keep you updated.",
+      "While some services can show immediate traffic, most software solutions typically take 1-3 months for significant improvements. We provide monthly progress reports to keep you updated.",
   },
   {
     question: "Do you offer custom packages?",
@@ -645,7 +408,7 @@ export const faqs = [
   {
     question: "What platforms do you specialize in?",
     answer:
-      "We specialize in ReactJS, WordPress, Shopify, and Webflow for development. For ads, we are experts in Meta (FB/IG) and Google Ads ecosystems.",
+      "We specialize in ReactJS, Node.js, Next.js, WordPress, Shopify, and mobile app ecosystems.",
   },
   {
     question: "Will I have a dedicated account manager?",

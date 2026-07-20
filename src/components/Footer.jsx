@@ -19,15 +19,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-24">
           <div className="col-span-1 lg:col-span-1">
             <div className="flex items-center gap-3 mb-10 group cursor-pointer">
-              <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center text-white shadow-xl group-hover:rotate-12 transition-transform duration-300">
-                <span className="text-xl font-black">K</span>
-              </div>
               <span className="text-2xl font-black tracking-tight font-heading">
-                Kisan <span className="text-primary-light">Digital</span>
+                Tech<span className="text-primary-light">Mine</span>
               </span>
             </div>
             <p className="opacity-60 mb-10 leading-relaxed font-medium">
-              Empowering brands to reach their full potential through innovative digital marketing and high-end technology solutions.
+              Empowering brands to reach their full potential through innovative digital and high-end technology solutions.
             </p>
             <div className="flex gap-5">
               {socialIcons.map(({ Icon, href }, i) => (
@@ -69,9 +66,9 @@ const Footer = () => {
           <div>
             <h4 className="text-[10px] uppercase tracking-[0.5em] font-black opacity-50 mb-10">Contact Info</h4>
             <ul className="space-y-6 opacity-60">
-              <li className="font-bold text-sm uppercase tracking-widest">Lucknow, Uttar Pradesh, India</li>
-              <li className="font-bold text-sm uppercase tracking-widest">+91 95111 50925</li>
-              <li className="font-bold text-sm uppercase tracking-widest">hello@kisandigital.com</li>
+              <li className="font-bold text-sm uppercase tracking-widest">Lucknow, Uttar Pradesh</li>
+              <li className="font-bold text-sm uppercase tracking-widest">+91 99052 34866</li>
+              <li className="font-bold text-sm uppercase tracking-widest">hello@techmine.com</li>
             </ul>
             <div className="mt-12 p-8 rounded-[2rem] glass border border-[var(--border-color)] backdrop-blur-3xl shadow-2xl">
               <p className="text-[10px] font-black text-primary-light uppercase tracking-[0.3em] mb-4">Weekly Insights</p>
@@ -88,7 +85,7 @@ const Footer = () => {
         </div>
 
         <div className="pt-12 border-t border-[var(--border-color)] flex flex-col md:flex-row justify-between items-center gap-8 text-[10px] font-black uppercase tracking-[0.2em] opacity-40">
-          <p>© 2026 Kisan Digital Agency. Lucknow's Premier Marketing Hub.</p>
+          <p>© 2026 TechMine. Digital Growth Partner.</p>
           <div className="flex gap-10">
             <a href="#" className="hover:opacity-100 transition-opacity">Privacy Policy</a>
             <a href="#" className="hover:opacity-100 transition-opacity">Terms of Service</a>

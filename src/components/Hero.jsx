@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/919511150925?text=Hi, I want to grow my business with Kisan Digital!", "_blank");
+    window.open("https://wa.me/919905234866?text=Hi, I want to grow my business with TechMine!", "_blank");
   };
 
   return (
@@ -49,8 +49,8 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-sm sm:text-lg lg:text-2xl opacity-60 mb-10 max-w-2xl mx-auto leading-relaxed px-4"
           >
-            More reach. More leads. More revenue. <br />
-            Performance-focused marketing solutions designed to scale your business.
+            Better software. Better performance. Better business. <br />
+            Performance-focused technology solutions designed to scale your business.
           </motion.p>
 
           <motion.div

@@ -52,8 +52,8 @@ const stats = [
     color: "text-yellow-500",
   },
 ];
- const whatsappNumber = "919511150925";
-  const message = "Hi Kisan Digital, I'm interested in your services!";
+ const whatsappNumber = "919905234866";
+  const message = "Hi TechMine, I'm interested in your services!";
 
   const handleClick = () => {
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
@@ -66,7 +66,7 @@ const Stats = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-black tracking-tight mb-4">
             Why Businesses{" "}
-            <span className="text-primary-light">Trust KisanDigital</span>
+            <span className="text-primary-light">Trust TechMine</span>
           </h2>
           <p className="opacity-50 max-w-2xl mx-auto font-medium">
             Numbers that speak for our success — from digital solutions to
@@ -116,7 +116,7 @@ const Stats = () => {
               Ready to Boost Your Revenue 5X?
             </h3>
             <p className="text-white/80 mb-12 text-lg lg:text-xl max-w-2xl mx-auto font-medium">
-              Start with high-performance digital marketing today. <br />{" "}
+              Start with high-performance technology solutions today. <br />{" "}
               Smarter. Faster. Zero guesswork.
             </p>
             <div className="flex flex-wrap justify-center gap-6">
