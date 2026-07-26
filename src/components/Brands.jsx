@@ -60,11 +60,11 @@ const Brands = () => {
                 src={brand.image}
                 alt={brand.name}
                 className="
-                  w-[140px]
-                  sm:w-[180px]
-                  md:w-[220px]
-                  lg:w-[260px]
-                  h-auto
+                  h-[40px]
+                  sm:h-[50px]
+                  md:h-[60px]
+                  lg:h-[70px]
+                  w-auto
                   object-contain
                   opacity-80
                   hover:opacity-100
