@@ -19,6 +19,10 @@ const brands = [
     name: 'News 24',
     image: '/2.png',
   },
+  {
+    name: 'GV Computer Center',
+    image: '/gv_computer_center.jpg',
+  },
 ];
 
 const Brands = () => {
