@@ -58,7 +58,7 @@ const Contact = () => {
             <div className="space-y-12">
               {[
                 { icon: <HiMail />, label: 'Email us', value: 'hello@techmine.com' },
-                { icon: <HiPhone />, label: 'Call us', value: '+91 99052 34866' },
+                { icon: <HiPhone />, label: 'Call us', value: '+91 99052 34866, +91 85760 75116' },
                 { icon: <HiLocationMarker />, label: 'Our Office', value: 'Lucknow, Uttar Pradesh' },
               ].map((item, index) => (
                 <div key={index} className="flex gap-4 sm:gap-8 items-center group">

@@ -68,6 +68,7 @@ const Footer = () => {
             <ul className="space-y-6 opacity-60">
               <li className="font-bold text-sm uppercase tracking-widest">Lucknow, Uttar Pradesh</li>
               <li className="font-bold text-sm uppercase tracking-widest">+91 99052 34866</li>
+              <li className="font-bold text-sm uppercase tracking-widest">+91 85760 75116</li>
               <li className="font-bold text-sm uppercase tracking-widest">hello@techmine.com</li>
             </ul>
             <div className="mt-12 p-8 rounded-[2rem] glass border border-[var(--border-color)] backdrop-blur-3xl shadow-2xl">
