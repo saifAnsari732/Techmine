@@ -10,11 +10,15 @@ import Pricing from '../components/Pricing';
 import Growth from '../components/Growth';
 import FAQ from '../components/FAQ';
 import Contact from '../components/Contact';
+import WhatsappHero from '../components/WhatsappHero';
+import SeamlessOnboarding from '../components/SeamlessOnboarding';
 
 const Home = () => {
   return (
     <>
       <Hero />
+      <WhatsappHero />
+      <SeamlessOnboarding />
       <Brands />
       <TechShowcase />
       <Services />
