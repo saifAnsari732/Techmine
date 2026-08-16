@@ -60,7 +60,7 @@ const SeamlessOnboarding = () => {
               </div>
 
               <a 
-                href="https://saas-whtsapp-crm-sigma.vercel.app"
+                href="https://saas-whtsapp-crm.onrender.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-[#1877f2] hover:bg-blue-600 text-white font-bold py-3.5 px-4 rounded-xl flex items-center justify-center transition-colors mb-8 shadow-md"

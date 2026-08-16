@@ -50,7 +50,7 @@ const WhatsappHero = () => {
                 Get Started for Free <FaArrowRight />
               </button>
               <a 
-                href="https://saas-whtsapp-crm-sigma.vercel.app"
+                href="https://saas-whtsapp-crm.onrender.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#1877f2] text-white px-8 py-3.5 rounded-full font-semibold flex items-center gap-3 hover:bg-blue-600 transition-colors shadow-lg shadow-blue-500/30"
