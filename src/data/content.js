@@ -112,6 +112,14 @@ export const portfolio = [
     description: "Designed and developed a modern, fast-loading cultural website with premium UI/UX, responsive layouts, and SEO-friendly architecture. A platform for spiritual connection.",
     link: "https://tejomarg.com/",
   },
+  {
+    id: "gv-computer",
+    title: "GV Computer Center",
+    category: "Education Platform",
+    image: "/protfolio/gv-logo-removebg-preview.png",
+    description: "Developed a modern educational platform for computer training, offering courses, resources, and student engagement tools with a seamless digital experience.",
+    link: "https://www.gvcomputer.in/",
+  },
 
 
 ];
