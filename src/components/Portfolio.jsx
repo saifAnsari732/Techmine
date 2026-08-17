@@ -37,7 +37,13 @@ const Portfolio = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: index * 0.1, ease: "easeOut" }}
-              onClick={() => navigate(`/project/${project.id}`)}
+              onClick={() => {
+                if (project.link && project.link !== "#") {
+                  window.open(project.link, '_blank');
+                } else {
+                  navigate(`/project/${project.id}`);
+                }
+              }}
               className="group relative rounded-[3rem] overflow-hidden cursor-pointer bg-white/5 border border-white/5 shadow-2xl"
             >
               <div className="aspect-[16/10] overflow-hidden">
@@ -63,7 +69,7 @@ const Portfolio = () => {
                 </div>
                 <div className="flex items-center gap-4 opacity-0 group-hover:opacity-100 transition-all duration-500 delay-200">
                   <span className="px-8 py-3 bg-white text-bg-color rounded-2xl font-black text-[10px] uppercase tracking-widest shadow-2xl">
-                    View Case Study
+                    View Project
                   </span>
                 </div>
               </div>
